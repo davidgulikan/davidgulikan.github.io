@@ -8,12 +8,15 @@ body
 .spisok {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height: 100hv;
+    background-color: #7aa5e9;
+    border-radius: 30px;
 }
 
 .forma{
     text-align: center;
+    background-color: #7aa5e9;
+    border-radius: 50px;
 }
 
 header {
@@ -22,6 +25,7 @@ header {
     align-items: center;
     background-color: #567bb6;
     padding: 10px;
+    border-radius: 50px;
 }
 .logo {
     display: flex;
@@ -48,7 +52,7 @@ nav ul li a {
     font-weight: bold;
 }
 span {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
 }
@@ -59,6 +63,7 @@ table {
     margin: 20px 0;
     font-size: 18px;
     text-align: left;
+    overflow: hidden;
 }
 th, td {
     border: 1px solid #860e0e;
@@ -69,7 +74,7 @@ tr:nth-child(even) {
 }
 
 footer {
-    background-color: #6699cc;
+    background-color: #456291;
     padding: 20px;
     font-style: italic;
     width: 100%;
