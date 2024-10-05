@@ -5,13 +5,7 @@ body
     background-size: cover;
 }
 
-.links-section {
-    order: 2;
-}
-    
-.table-section {
-    order: 1;
-}
+
 
 @media (max-width: 1080px) {
     .header {
@@ -25,6 +19,15 @@ body
         flex-direction: column;
         gap: 10px;
     }
+    .links-section {
+    order: 2;
+    }  
+    .table-section {
+        order: 1;
+    }
+    .form-selection {
+        order: 3;
+    }
 }
 
 @media (min-width: 1080px) {
@@ -32,6 +35,18 @@ body
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    
+    .links-section {
+    order: 1;
+    }
+    
+    .table-section {
+        order: 2;
+    }
+    
+    .form-selection {
+        order: 3;
     }
 }
 
