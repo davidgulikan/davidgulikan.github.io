@@ -5,6 +5,32 @@ body
     background-size: cover;
 }
 
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .table-section {
+        order: 2; /* Изменяем порядок для десктопов */
+        width: 45%;
+    }
+
+    .links-section {
+        order: 1;
+        width: 45%;
+    }
+
+    .form-section {
+        width: 45%;
+    }
+}
 .spisok {
     display: flex;
     justify-content: center;
