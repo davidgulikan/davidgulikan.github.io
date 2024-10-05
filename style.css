@@ -5,6 +5,14 @@ body
     background-size: cover;
 }
 
+.links-section {
+    order: 1;
+}
+    
+.table-section {
+order: 2;
+}
+    
 @media (min-width: 768px) {
     nav ul {
         flex-direction: row;
@@ -16,7 +24,7 @@ body
         justify-content: space-around;
         align-items: flex-start;
     }
-
+    
     .table-section {
         order: 1; /* Изменяем порядок для десктопов */
         width: 45%;
