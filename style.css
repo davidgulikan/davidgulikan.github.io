@@ -6,14 +6,14 @@ body
 }
 
 .links-section {
-    order: 1;
+    order: 2;
 }
     
 .table-section {
-    order: 2;
+    order: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .header {
         flex-direction: row;
     }
@@ -27,17 +27,14 @@ body
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     main {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-
-    .table {
-        order: -1; /* таблица будет выше списка ссылок */
-    }
 }
+
 .spisok {
     display: flex;
     justify-content: center;
