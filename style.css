@@ -18,12 +18,12 @@ body
     }
 
     .table-section {
-        order: 1; /* Изменяем порядок для десктопов */
+        order: 2; /* Изменяем порядок для десктопов */
         width: 45%;
     }
 
     .links-section {
-        order: 2;
+        order: 1;
         width: 45%;
     }
 
